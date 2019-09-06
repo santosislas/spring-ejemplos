@@ -14,6 +14,7 @@ public class DemoController {
 		System.out.println("entro");
 		m.addAttribute("name", name);
 		System.out.println("nueva rama local");
+		System.out.println("prueba 2");
 		return "greeting";
 	}
 }
