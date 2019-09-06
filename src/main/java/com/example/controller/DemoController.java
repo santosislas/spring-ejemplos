@@ -13,7 +13,7 @@ public class DemoController {
 	public String greeting(@RequestParam(name = "name", defaultValue = "Alberto") String name, Model m) {
 		System.out.println("entro");
 		m.addAttribute("name", name);
-		
+		System.out.println("nueva rama local");
 		return "greeting";
 	}
 }
